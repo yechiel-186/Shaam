@@ -5,7 +5,7 @@ A ticket management project with an Angular frontend and a .NET server.
 ## Project Structure
 
 - `TicketsFront/` - Angular project for the user interface
-- `TicketsProject/` - ASP.NET Core API project for the server
+- `TicketsProject/` - .NET Core API project for the server
 
 ## Prerequisites
 
