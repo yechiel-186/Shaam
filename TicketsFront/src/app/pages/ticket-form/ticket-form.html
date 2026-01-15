@@ -1,0 +1,17 @@
+<div class="container">
+<form [formGroup]="ticketForm" class="mt-5">
+<div class="mb-3">
+    <label for="subject" class="form-label">Subject</label>
+    <input type="text" class="form-control" id="subject" formControlName="subject">
+</div>
+<div class="mb-3">
+    <label for="description" class="form-label">Description</label>
+    <input type="text" class="form-control" id="description" formControlName="description">
+</div>
+<div class="mb-3">
+    <label for="userId" class="form-label">UserId</label>
+    <input type="number" class="form-control" id="userId" formControlName="userId">
+</div>
+<button type="submit" class="btn btn-primary"  (click)="Submit()">Submit</button>
+</form>
+</div>
