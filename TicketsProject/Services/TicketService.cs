@@ -9,7 +9,7 @@ public class TicketService
         _tickets.Add(new Ticket(
             Id: _nextId++,
             UserId: 123456789,
-            Subject: "בעיה בהתחברות",
+            Subject: "בעיה בהתחברות ",
             Description: "לא מצליח להתחבר למערכת",
             IsClosed: false
         ));
